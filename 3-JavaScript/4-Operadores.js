@@ -1,7 +1,7 @@
 /*
 Los operadores arimeticos son los mismos que existen en Python,
 en especial, también se encuentran % para modulo, ** para
-potencia, += para incremento y en general <operador>= para.
+potencia, += para incremento y en general <operador>=.
 
 También existen ++ para incremento y -- para decremento como Java.
 */

@@ -20,7 +20,7 @@ var autos = ["BMW", "Audi", "Volvo"];
 
 // Boolean
 var verdadero = true;
-var falso = falso;
+var falso = false;
 
 // Function
 function miFuncion() {}

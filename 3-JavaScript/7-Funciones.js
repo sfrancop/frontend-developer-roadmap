@@ -18,7 +18,7 @@ Declaracion de funciones
 // Esta es una forma
 function miFuncion1(a=4, b=2){ // Por el hecho de no estar obligados a pasar todos los parametros, podemos asignar valores por defecto a los argumentos, como en python
   console.log(arguments.length); // Otra manera de acceder a la cantidad de parametros que está recibiendo
-  console.log(arguments[0]) // Con arguments[<inde>] podemos acceder a los parametros pasados, esto es útil para acceder al parametro no definido en la declaración de la función
+  console.log(arguments[0]) // Con arguments[<index>] podemos acceder a los parametros pasados, esto es útil para acceder al parametro no definido en la declaración de la función
   console.log("La suma de a y b es: " + (a + b));
 }
 //  Esta es una forma (funcion de tipo expresion)
