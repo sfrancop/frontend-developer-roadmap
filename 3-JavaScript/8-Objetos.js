@@ -51,7 +51,7 @@ const persona4 = {
     apellido: 'Perez',
     profesion: 'Desarrollador Web',
     edad: 32,
-    get nombreCompleto() {
+    get nombreCompleto() { // Estos métodos también pueden recibir parametros
         return `${this.nombre} ${this.apellido}`;
     },
     set nombreCompleto(nom) {
@@ -119,3 +119,21 @@ Persona.prototype.edad = undefined;
 padre.edad = 43;
 console.log(madre.edad);
 console.log(padre.edad);
+
+/*
+Método call
+
+Sirve para llamar a un método de un objeto desde otro objeto.
+
+En este ejemplo, aunque el método getNombreCompleto no existe en la instancia
+de persona, se puede llamar a este método desde la instancia de padre gracias
+al método call.
+*/ 
+console.log(padre.getNombreCompleto.call(persona));
+
+/*
+Método apply
+
+sirve para llamar a un método de un objeto desde otro objeto.
+*/
+console.log(padre.getNombreCompleto.apply(persona));
